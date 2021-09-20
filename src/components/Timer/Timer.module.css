@@ -1,0 +1,19 @@
+.timer {
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.count {
+    font-size: 70px;
+}
+
+.button_start,
+.button_stop,
+.button_reset {
+    height: 100%;
+    width: 33%;
+    color: cornsilk;
+    background-color: blue;
+
+}

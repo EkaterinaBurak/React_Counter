@@ -1,0 +1,13 @@
+.emojiItem {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border: 2px solid gray;
+}
+
+.emojiList {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

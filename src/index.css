@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+/* Facebook */
+
+.fbPost {
+  width: 40%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  background: #fafafa;
+}
+
+.fbImg {
+  height: 90px;
+  width: 90px;
+  margin-right: 10px;
+  border: 1px;
+  border-radius: 50%;
+}
+
+.fbBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.fbHeader {
+  display: flex;
+}
+
+.fbFooter {
+  display: flex;
+  align-items: center;
+}
+
+.fbName {
+  color: #555fa9;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.fbName:hover {
+  color: blue;
+}
+
+.circle {
+  height: 3px;
+  width: 3px;
+  background: #94a3b2;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.fbEducation,
+.fbTime {
+  color: #a09da0;
+}
+
+.fbBtn{
+  border: none;
+  background: none;
+  color: #555fa9;
+  
+}
+
+.fbBtn:hover {
+  color: blue;
+}
+
+/* Onliner */
+
+.onlinerCard {
+  background: url(https://content.onliner.by/news/1400x5616/05ef58d1e9feab45bdb86ca4f003fb2b.jpeg) no-repeat  center top;
+  padding: 15px;
+  width: 80%;
+  height: 400px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+.onlinerHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.onlinerChapter {
+  padding: 5px 15px;
+  background: #ffea00;
+  font-weight: 500;
+}
+
+.onlinerComments {
+  padding: 5px 15px;
+  font-weight: 600;
+  color: #ffea00;
+  background: #3e3939;
+  border: 1px solid #ffea00;
+  border-radius: 4px;
+}
+
+.onlinerTitle {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: #171615 1px 0 10px;
+}
+
+/* Rabota.by */
+
+.jobCard {
+  width: 70%;
+  margin: 0 15% 0 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 25px;
+  border: 1px solid #e6e6e6;
+}
+
+.jobTitle {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #379fff;
+}
+
+.company {
+  font-size: 12px;
+  color: #838383;
+}
+
+.city {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #838383;
+}
+
+.companyDescription {
+  margin-bottom: 20px;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jobBtn {
+  padding: 10px 15px;
+  border: none;
+  background: #1f88e5;
+  color: #fff;
+}
+
+.jobDate {
+  color: #838383;
+}
+
+/* HdRezka*/
+.rezkaWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+
+.rezkaPost {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ 
+}
+.moviePoster {
+  height: 250px;
+  width: 166px;
+}
+
+.movieDescription {
+  padding: 15px 1px 0;
+}
+.movieTitle {
+  display: inline;
+  font-size: 14px;
+  font-weight: bold;
+  color: #2e859e;
+
+}
+.movieYear,
+.movieCountry,
+.movieCatagory {
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 16px;
+  color: #777;
+  cursor: pointer;
+}
+
+.movieDescription {
+  display: inline;
+  width: 174px;
+}
